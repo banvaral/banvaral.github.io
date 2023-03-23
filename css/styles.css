@@ -1,0 +1,215 @@
+:root{
+
+    --color-bg: #F8FAFD;
+    --color-base: #ffffff;
+    --color-primario:#00086E;
+    --color-secundario: #DEF6FF;
+}
+
+@media screen and (max-width:2160px), screen and (max-height: 3840px){
+    body{
+        padding: 130px;
+        margin: 0;
+        background-color: var(--color-bg);
+    }
+    .navbar{
+        background-color: transparent !important;
+    }
+    .navbar__header{
+        width: 100%;
+        height: 360px;
+        background-color: transparent;
+    }
+    .navbar__container__btn{
+        width: 703.1px;
+        height: 304.23px;
+        border-radius: 54.08px;
+        background-color: var(--color-primario);
+        padding: 75px;
+    }
+    .navbar__container__btn__text{
+    font-size: 54.08px;
+    color: var(--color-base);
+    font-family: 'Futura Lt BT';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 61px;
+    text-align: left;
+    }
+    .navbar__container__btn__icon__col{
+        position: relative;
+        left: 40px;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        width: 142px;
+        height: 142px;
+    }
+    .navbar__container__btn__icon{
+        width: 142px;
+        height: 142px;
+        background-color: var(--color-secundario);
+        border-radius: 1000px;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar__container__btn__icon img{
+        position: relative;
+        top: 25px;
+    }
+
+    /*CARD INDEX*/
+    .ofertaedu{
+        margin-top: 250px;
+ 
+    }
+    .ofertaedu__card{
+        width: 1893px;
+        height: 1285px;
+        padding: 90px;
+        border-radius: 100px;
+        box-shadow: 0px 27.0423px 101.408px rgba(0, 0, 0, 0.1);
+    }
+
+    .ofertaedu__container{
+        width: 1014px;
+        height: 405px;
+        background-color: var(--color-primario);
+        border-radius: 54px;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        bottom: 220px;
+    }
+    .ofertaedu__container__elements{
+       position: relative;
+       top: 15%;
+    }
+    .ofertaedu__container__elements__text{
+        font-family: 'Futura Md BT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54.0845px;
+        line-height: 61px;
+        color:var(--color-base)
+    }
+    .ofertaedu__container__elements__btn{
+        width: 703px;
+        height: 122px;
+        border-radius: 1000px;
+        background-color: var(--color-secundario);
+        border: none;
+        padding: 0px 50px 00px 50px;
+        margin-top: 20px;
+    }
+    .ofertaedu__container__elements__btn__text{
+        font-family: 'Futura Md BT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54.0845px;
+        line-height: 61px;
+        color: var(--color-primario);
+    }
+
+    /*Banner universidad*/
+    .universidad{
+        margin-top: 50px;
+    }
+    .universidad a{
+        text-decoration: none;
+    }
+    .universidad__card{
+        width: 1893px;
+        height: 540px;
+        background-image: url(img/bg-banner.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: var(--color-secundario);
+        border: none;
+        border-radius: 100px;
+        padding: 100px;
+        box-shadow: 0px 27.0423px 101.408px rgba(0, 0, 0, 0.1);
+    }
+    .universidad__card__body{
+        position: relative;
+        bottom: 50px;
+    }
+    .universidad__card__body__btn{
+        width: 170px;
+        height: 170px;
+        border: none;
+        border-radius: 1000px;
+        background-color: var(--color-primario);
+        position: relative;
+        top: 120px;
+    }
+    .universidad__card__body__text{
+        font-family: 'Futura Md BT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 61px;
+        text-align: center;
+        color: var(--color-primario);
+        position: relative;
+        top: 130px;
+        right: 250px;
+    }
+    .universidad__card__bady__img{
+        margin: 0 auto;
+        position: relative;
+        left: 1235px;
+        bottom: 450px;
+    }
+
+    /*MENU*/
+    .menu{
+        margin-top: 300px;
+    }
+    .menu__estructure{
+        width: 1082px;
+        height: 338px;
+        border-radius: 100px;
+        background-color: #ffffff;
+        box-shadow: 0px 27.0423px 100px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+    }
+    .menu__estructure__navbar__form{
+        position: relative;
+        margin: 0 auto;
+        gap: 68px;
+        left: 60px;
+        top: 65px;
+    }
+    .menu__estructure__navbar__form__btn{
+        width: 676px;
+        height: 169px;
+        background-color: var(--color-secundario);
+        border: none;
+        border-radius: 1000px;
+    
+    }
+    .menu__estructure__navbar__form__btn__elements{
+        position: relative;
+        right:20px;
+    }
+    .menu__estructure__navbar__form__btn__elements__img{
+        width: 169px;
+        height: 169px;
+        background-color: var(--color-secundario);
+        border: none;
+        border-radius: 1000px;
+    }
+    .menu__estructure__navbar__form__btn__elements__text{
+        font-family: 'Futura Md BT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54.0845px;
+        line-height: 61px;
+        color: var(--color-primario);
+        float: right;
+        position: relative;
+        right: 50px;
+    }
+    
+  }
