@@ -1,0 +1,122 @@
+:root{
+
+    --color-bg: #F8FAFD;
+    --color-base: #ffffff;
+    --color-primario:#00086E;
+    --color-secundario: #DEF6FF;
+}
+
+@media screen and (max-width:2160px), screen and (max-height: 3840px){
+/*ESCUELAS BANNER INICIAL*/
+body{
+    background-color: var(--color-bg);
+}
+a{
+    text-decoration: none;
+}
+.ofedu{
+    padding: 0; 
+    margin: 0;
+}
+.ofedu__banner{
+    width: 100%;
+    height: 945px;
+    background-color: var(--color-primario);
+    background-image: url(bg-escuelas-banner.svg);
+    border-radius: 0 0 135px 135px;
+}
+.ofedu__banner__elements{
+    padding: 135px;
+    gap: 1200px;
+}
+.ofedu__banner__btn{
+    width: 495px;
+    height: 170px;
+    background-color: var(--color-base);
+    border-radius: 1000px;
+    border: none;
+}
+.ofedu__banner__btn__text{
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54.0845px;
+    line-height: 61px;
+    color: var(--color-primario);
+    float: right;
+    padding: 20px 100px 0 0;
+}
+.ofedu__banner__search{
+    width: 170px;
+    height: 170px;
+    background-color: var(--color-secundario);
+    border: none;
+    border-radius: 1000px;
+}
+.ofedu__banner__search img{
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+.ofedu__banner_title{
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 162.254px;
+    line-height: 162px;
+    color: var(--color-base);
+    padding-left: 135px;
+
+}
+
+.escuelas{
+    margin: 135px;
+}
+.escuelas__elements{
+    position: relative;
+    left:50px;
+    margin-top:30px ;
+}
+
+.escuelas__card{
+    width: 507px;
+    height: 507px;
+    border-radius: 100px;
+    box-shadow: 0px 27.04px 101px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-base);
+}
+.escuelas__card__bloc{
+    width: 1100px;
+    height: 507px;
+    border-radius: 100px;
+    box-shadow: 0px 27.04px 101px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-base);
+}
+.escuelas__card__bloc img{
+    position: relative;
+    right: 70px;
+    bottom: 70px;
+}
+.escuelas__card_square img{
+    position: relative;
+    right: 90px;
+}
+.escuelas__card_arq img{
+    position: relative;
+    right: 45px;
+    bottom: 40px;
+}
+.escuelas__card__text{
+    padding-right: 100px;
+    margin-top: 30px;
+}
+.escuelas__card__text h4{
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54.08px;
+    line-height: 68px;
+    color: #000000;
+    text-align: center;
+}
+}

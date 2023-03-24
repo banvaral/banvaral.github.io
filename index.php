@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-footer.css">
     <title>Vive Modelo</title>
 </head>
-<body>
+<body class="body__index">
 <header class="navbar__header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -48,7 +49,7 @@
     <div class="ofertaedu__container">
         <div class="ofertaedu__container__elements">
             <h4 class="ofertaedu__container__elements__text">¡Prepárate y planea </br> tu futuro académico!</h4>
-            <a href="#">
+            <a href="escuelas.php">
                 <button class="ofertaedu__container__elements__btn">
                     <div class="row">
                         <div class="col-2"><img src="img/loading.svg" alt=""></div>
@@ -82,27 +83,7 @@
     </a>
 </section>
 
-<section class="menu">
-    <div class="menu__estructure">
-        <nav class="navbar bg-body-tertiary menu__estructure__navbar">
-            <form class="container-fluid justify-content-start menu__estructure__navbar__form">
-                <a href="">
-                <button class="btn btn-outline-success me-2 menu__estructure__navbar__form__btn" type="button">
-                    <div class="menu__estructure__navbar__form__btn__elements">
-                        <img src="img/Home.svg" alt="">
-                        <h4 class="menu__estructure__navbar__form__btn__elements__text">Pantalla de inicio</h4>
-                    </div>
-                </button>
-                </a>
-                <a href="">
-                <button class="btn btn-outline-success me-2 menu__estructure__navbar__form__btn__elements__img" type="button">
-                    <img src="img/GPS.svg" alt="">
-                </button>
-                </a>
-            </form>
-        </nav>
-    </div>
-</section>
+<?php include ('footer.php') ?>
 
     <script src="bootstrap.min.js"></script>
 </body>
