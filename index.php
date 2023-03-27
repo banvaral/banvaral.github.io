@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse navbar__container" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
+                        <a class="nav-link active" aria-current="page" href="buscador.php">
                             <button type="button" class="btn btn-primary btn-lg navbar__container__btn">
                                 <div class="container text-center">
                                 <div class="row">
@@ -62,7 +62,7 @@
 </section>
 
 <section class="universidad">
-    <a href="">
+    <a href="formulario-info.php">
         <div class="card universidad__card">
             <div class="card-body universidad__card__body">
                 <div class="row">
@@ -85,6 +85,6 @@
 
 <?php include ('footer.php') ?>
 
-    <script src="bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

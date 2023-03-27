@@ -7,9 +7,10 @@
 }
 
 @media screen and (max-width:2160px), screen and (max-height: 3840px){
-    .body__index{
+    body{
         margin: 0;
         background-color: var(--color-bg);
+        overflow: block;
     }
     .navbar{
         background-color: transparent !important;

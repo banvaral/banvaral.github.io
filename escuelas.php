@@ -22,9 +22,11 @@
                     </a>
                 </div>
                 <div class="col">
+                    <a href="buscador.php">
                     <div class="ofedu__banner__search">
                         <img src="img/Search.svg" alt="">
                     </div>
+                    </a>
                 </div>
             </div>
             <h1 class="ofedu__banner_title">Oferta </br> educativa</h1>
@@ -35,7 +37,7 @@
         <div class="container-fluid text-center escuelas__elements">
             <div class="row">
                 <div class="col-8">
-                    <a href="">
+                    <a href="licenciaturas.php">
                         <div class="escuelas__card__bloc"><img src="img/Negocios.svg" alt=""></div>
                         <div class="escuelas__card__text">
                         <h4>Escuela de </br> <strong>Negocios</strong></h4>
