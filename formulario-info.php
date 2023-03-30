@@ -33,22 +33,22 @@
         <h1>¿Quieres recibir información más </br> información de los procesos de </br> ingreso o de becas?</h1>
         <h2>Mándanos tu información y nosotros responderemos todas tus dudas.</h2>
     </div>
-    <form action="" class="form__licenciaturas">
+    <form action="" method="POST " class="form__licenciaturas">
     <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Nombre (s)</label>
-            <input class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí tu nombre">
+            <input type="text" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí tu nombre">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Apelllidos</label>
-            <input class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí sus apellidos">
+            <input type="text" name="Apellidos" class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí sus apellidos">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
-            <input class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí tu numero telefónico">
+            <input type="number" name="Telefono" class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí tu numero telefónico">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí tu correo electrónico">
+            <input type="email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí tu correo electrónico">
         </div>
         <select class="form-select" aria-label="Default select example">
             <option selected>Seleccione un campus</option>
@@ -75,7 +75,7 @@
             </label>
         </div>
         <div class="forms__btn">
-            <button type="submit" class="btn btn-primary"><h4>Enviar formulario</h4></button>
+            <button type="submit" name="enviar" class="btn btn-primary"><h4>Enviar formulario</h4></button>
         </div>
     </form>
 </section>

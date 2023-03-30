@@ -115,7 +115,7 @@
         </div>
     </section>
 <?php include('footer.php') ?>
-<script src="bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
 
